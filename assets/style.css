@@ -1,0 +1,383 @@
+body {
+  min-height: 100vh;
+}
+footer {
+  display: flex;
+  margin-top: 50px;
+  background-color: #624e4e;
+  height: 240px;
+  justify-content: center;
+  flex-direction: column;
+}
+.header-text {
+  text-align: center;
+  background-color: #f1edea;
+  width: 100%;
+}
+.announcement-text {
+  color: #624e4e;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11.5px;
+}
+@keyframes viewShow {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+/*First body thing */
+
+.body-image {
+  display: flex;
+  background-image: url("img/carousel.jpg");
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.body-image img {
+  margin-top: 30px;
+  width: 65%;
+}
+.body-image p {
+  text-align: center;
+  bottom: 0;
+}
+.body-image h2 {
+  text-align: center;
+  align-items: flex-end;
+}
+/* End first Body thing*/
+/* First Body CONTENT */
+.body-content {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f1edea;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.content-body-image {
+  color: white;
+  margin-bottom: 15px;
+}
+.content-body-image h2 {
+  font-family: "Neuzeit Office", sans-serif;
+}
+
+.content-body-image p {
+  margin-top: 15px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+/* END FIRST BODY CONTENT*/
+/* CARDS */
+.card {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  border-radius: 0;
+}
+.first-card {
+  background-image: url("img/shooes.jpg");
+  background-size: cover;
+  height: 240px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.second-card {
+  background-image: url("img/second-card.jfif");
+  background-size: cover;
+  height: 240px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.third-card {
+  background-image: url("img/first-card.jfif");
+  background-size: cover;
+  height: 240px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.fourth-card {
+  background-image: url("img/third-card.jfif");
+  background-size: cover;
+  height: 240px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+/*CARD BODY*/
+.first-card-body-row {
+  background-image: url("img/first-thing.jfif");
+  background-size: cover;
+  height: 430px;
+  background-position: center;
+}
+.second-card-body-row {
+  background-image: url("img/second-thing.jfif");
+  background-size: cover;
+  height: 430px;
+  background-position: center;
+}
+.third-card-body-row {
+  background-image: url("img/third-thing.jfif");
+  background-size: cover;
+  height: 430px;
+  background-position: center;
+}
+.fourth-card-body-row {
+  background-image: url("img/fourth-thing.jfif");
+  background-size: cover;
+  height: 430px;
+  background-position: center;
+}
+.fifth-card-body-row {
+  background-image: url("img/fifth-thing.jfif");
+  background-size: cover;
+  height: 430px;
+  background-position: center;
+}
+.sixth-card-body-row {
+  background-image: url("img/sixth-thing.jfif");
+  background-size: cover;
+  height: 430px;
+  background-position: center;
+}
+.seventh-card-body-row {
+  background-image: url("img/seventh-thing.jfif");
+  background-size: cover;
+  height: 430px;
+  background-position: center;
+}
+.eight-card-body-row {
+  background-image: url("img/eight-thing.jfif");
+  background-size: cover;
+  height: 430px;
+  background-position: center;
+}
+.ninth-card-body-row {
+  background-image: url("img/ninth-thing.jfif");
+  background-size: cover;
+  height: 430px;
+  background-position: center;
+}
+.tenth-card-body-row {
+  background-image: url("img/tenth-thing.jfif");
+  background-size: cover;
+  height: 430px;
+  background-position: center;
+}
+.eleventh-card-body-row {
+  background-image: url("img/eleventh-thing.jfif");
+  background-size: cover;
+  height: 430px;
+  background-position: center;
+}
+.twelveth-card-body-row {
+  background-image: url("img/twelveth-thing.jfif");
+  background-size: cover;
+  height: 430px;
+  background-position: center;
+}
+.thirteenth-card-body-row {
+  background-image: url("img/thirteenth-thing.jfif");
+  background-size: cover;
+  height: 430px;
+  background-position: center;
+}
+.fourteenth-card-body-row {
+  background-image: url("img/fourteenth-thing.jfif");
+  background-size: cover;
+  height: 430px;
+  background-position: center;
+}
+.fifteenth-card-body-row {
+  background-image: url("img/fifteenth-thing.jfif");
+  background-size: cover;
+  height: 430px;
+  background-position: center;
+}
+.sixteenth-card-body-row {
+  background-image: url("img/sixteenth-thing.jfif");
+  background-size: cover;
+  height: 430px;
+  background-position: center;
+}
+/*First row */
+.first-card-body {
+  background-image: url("img/shooes.jpg");
+  background-size: cover;
+  height: 430px;
+  background-position: center;
+}
+.second-card-body {
+  background-image: url("img/second-card.jfif");
+  background-size: cover;
+  height: 430px;
+  background-position: center;
+}
+.third-card-body {
+  background-image: url("img/first-card.jfif");
+  background-size: cover;
+  height: 430px;
+  background-position: center;
+}
+.fourth-card-body {
+  background-image: url("img/third-card.jfif");
+  background-size: cover;
+  height: 430px;
+}
+.first-row-card-content {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+/* CARDS END */
+/* BUTTON */
+.btn {
+  color: #fff;
+  border-radius: 0;
+  background-color: #7d6f69;
+  opacity: 0.7;
+  border: none;
+}
+.btn:hover {
+  opacity: 1;
+  color: #fff;
+  background-color: #7d6f69;
+}
+/*BUTTONS END*/
+/* SECOND CONTENT BODY */
+.title-second-content-body {
+  text-align: center;
+}
+.second-row-body {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.first-row-body {
+  display: flex;
+  justify-content: center;
+}
+.third-row-body {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.fourth-row-body {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.second-content-card {
+  align-items: flex-end;
+  bottom: 0;
+  position: absolute;
+  opacity: 0;
+}
+.first-content-card {
+  height: 5%;
+  width: 30%;
+  background-color: #624e4e;
+  text-align: center;
+  right: 0;
+  position: absolute;
+}
+.first-content-card p {
+  color: #fff;
+  font-size: 12px;
+}
+.first-card-thing:hover .second-content-card {
+  opacity: 1;
+  animation: viewShow 0.5s;
+}
+
+.second-content-card button {
+  height: 30px;
+  background-color: #624e4e;
+  width: 210px;
+  border: none;
+  color: white;
+  margin-bottom: 5px;
+}
+
+/*END SECOND CONTENT BODY*/
+/*Footer content*/
+.footer-content p {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+}
+.footer-content p {
+  padding-left: 22px;
+  align-items: center;
+  color: #fff;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+.footer-content h2 {
+  padding-left: 22px;
+  font-size: 15px;
+  align-items: center;
+  color: #fff;
+  text-align: left;
+}
+.footer-end p {
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+.fourth-footer-content {
+  justify-content: flex-end;
+  right: 0;
+}
+.first-footer-content img {
+  width: 55%;
+  padding-left: 100px;
+}
+footer i {
+  margin-left: 10px;
+}
+
+.title-second-content-body {
+  display: flex;
+  height: 130px;
+  justify-content: center;
+  align-items: center;
+}
+.title-second-content-body h2 {
+  font-family: "Neuzeit Office", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #624e4e;
+}
+.body-things {
+  display: flex;
+}
+.border-bot {
+  margin-left: 20px;
+  border-bottom: 2px solid white;
+  width: 220px;
+}
